@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kitchen Heaven | Cloud Kitchen</title>
+  <meta name="description" content="Kitchen Heaven - North Indian Cloud Kitchen, Only Delivery." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0e0e0e;--card:#1a1a1a;--accent:#f97316;--muted:#b0b0b0;--radius:14px;color-scheme:dark;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter,sans-serif;background:var(--bg);color:#fff;line-height:1.6}
+    header{display:flex;justify-content:space-between;align-items:center;padding:20px 10%;background:#121212;position:sticky;top:0;z-index:999}
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand img{height:50px;width:auto;border-radius:8px}
+    .brand h1{font-size:1.4rem;color:var(--accent)}
+    nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-weight:600}
+    nav a:hover{color:var(--accent)}
+    .hero{padding:100px 10%;text-align:center;background:linear-gradient(180deg,#121212,#1a1a1a)}
+    .hero h2{font-size:2.5rem;color:var(--accent);margin-bottom:10px}
+    .hero p{color:var(--muted);max-width:600px;margin:0 auto 30px}
+    .btn{background:var(--accent);border:none;color:#fff;padding:12px 20px;border-radius:8px;font-weight:600;cursor:pointer;transition:0.3s}
+    .btn:hover{opacity:0.85}
+    .section{padding:60px 10%}
+    .section h2{text-align:center;color:var(--accent);margin-bottom:30px;font-size:2rem}
+    .menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+    .menu-item{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:0 0 10px rgba(0,0,0,0.4);text-align:center}
+    .menu-item h3{color:#fff;margin-bottom:8px}
+    .menu-item p{color:var(--muted)}
+    .contact{background:#121212;text-align:center;padding:50px 10%}
+    .contact h3{color:var(--accent);margin-bottom:10px}
+    .contact p{margin-bottom:8px;color:var(--muted)}
+    footer{text-align:center;padding:20px;background:#0d0d0d;color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="logo.png" alt="Kitchen Heaven Logo" />
+      <h1>Kitchen Heaven</h1>
+    </div>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://wa.me/919643109039" target="_blank" class="btn">Order Now</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Welcome to Kitchen Heaven</h2>
+    <p>Delicious North Indian Meals delivered hot and fresh right to your door. Pure taste, pure comfort.</p>
+    <a href="https://wa.me/919643109039" target="_blank" class="btn">Order Now on WhatsApp</a>
+  </section>
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item"><h3>Dal Tadka</h3><p>Half ₹105 | Full ₹157</p></div>
+      <div class="menu-item"><h3>Dal Makhani</h3><p>Half ₹126 | Full ₹189</p></div>
+      <div class="menu-item"><h3>Jeera Aloo</h3><p>Half ₹105 | Full ₹157</p></div>
+      <div class="menu-item"><h3>Shahi Paneer</h3><p>Half ₹115 | Full ₹210</p></div>
+      <div class="menu-item"><h3>Matar Paneer</h3><p>Half ₹126 | Full ₹189</p></div>
+      <div class="menu-item"><h3>Mix Veg</h3><p>Half ₹115 | Full ₹136</p></div>
+      <div class="menu-item"><h3>Aloo Paratha</h3><p>1 ₹103 | 2 ₹189</p></div>
+      <div class="menu-item"><h3>Paneer Paratha</h3><p>1 ₹131 | 2 ₹231</p></div>
+      <div class="menu-item"><h3>Gobhi Paratha</h3><p>1 ₹103 | 2 ₹199</p></div>
+      <div class="menu-item"><h3>Masala Pasta</h3><p>Half ₹94 | Full ₹147</p></div>
+      <div class="menu-item"><h3>Creamy Pasta</h3><p>Half ₹105 | Full ₹157</p></div>
+      <div class="menu-item"><h3>Veg Spring Roll</h3><p>₹103</p></div>
+      <div class="menu-item"><h3>Burger</h3><p>₹73</p></div>
+      <div class="menu-item"><h3>French Fries</h3><p>₹126</p></div>
+      <div class="menu-item"><h3>Jeera Rice</h3><p>₹94</p></div>
+      <div class="menu-item"><h3>Dal Tadka Rice Combo</h3><p>₹126</p></div>
+      <div class="menu-item"><h3>Matar Paneer with Rice</h3><p>₹136</p></div>
+      <div class="menu-item"><h3>Egg Curry (2 Eggs)</h3><p>₹103</p></div>
+      <div class="menu-item"><h3>Egg Curry with Rice</h3><p>₹136</p></div>
+    </div>
+  </section>
+  <section id="about" class="section" style="text-align:center">
+    <h2>About Us</h2>
+    <p style="max-width:700px;margin:0 auto;color:var(--muted)">Kitchen Heaven is your go-to cloud kitchen for authentic North Indian comfort food. We believe in serving homely taste with restaurant quality. From creamy paneer curries to stuffed parathas, everything is made fresh to order and delivered hot to your doorstep.</p>
+  </section>
+  <section id="contact" class="contact">
+    <h3>Contact Us</h3>
+    <p>📞 9643109039 / 8882708587</p>
+    <p>⏰ Open Daily: 11 AM – 11 PM</p>
+    <a href="https://wa.me/919643109039" target="_blank" class="btn">Order Now on WhatsApp</a>
+  </section>
+  <footer>
+    © <span id="year"></span> Kitchen Heaven | Only Delivery | Crafted with ❤️ in India
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
